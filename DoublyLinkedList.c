@@ -92,16 +92,16 @@ int main()
 int ch, no,key;
 while(ch!=5)
 {
-printf("1. Insert from front\n");
+printf("1.Insert from front\n");
 printf("2.Insert left of previous car\n");
-printf("3.dropped of car number\n");
-printf("4.show cars\n");
+printf("3.Dropped of car number\n");
+printf("4.Show cars\n");
 printf("5.Exit\n");
 printf("Enter choice\n");
 scanf("%d",&ch);
 switch(ch)
 {
-case 1: printf("enter car no\n");
+case 1: printf("Enter car no\n");
 scanf("%d",&no);
 insertcars(&no);
 break;

@@ -23,7 +23,7 @@ printf("enter the infix expression \n");
 scanf("%s",infix);
 infixtoprefix(infix,prefix);
 infixtopostfix(infix,postfix);
-printf("postfix expression is %s \n\n prefix expression is %s \n\n",postfix,prefix);
+printf("postfix expression is %s \n\nprefix expression is %s \n\n",postfix,prefix);
 }
 
 void infixtoprefix(char infix[],char prefix[])
